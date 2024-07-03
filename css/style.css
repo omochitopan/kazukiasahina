@@ -14,9 +14,22 @@ h1 {
   text-align: center;
 }
 
-nav {
+.header-box {
+  margin: 0 150px;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.header-box h1 {
+  width: 205px;
+  text-align: center;
+  border: solid;
+  border-width: 1px;
+}
+
+nav {
+  align-content: center;
 }
 
 nav a {
@@ -25,8 +38,12 @@ nav a {
   text-decoration: none;
 }
 
-nav > div {
-  margin-bottom: 40px;
+.nav-works {
+  margin-left: 15px;
+}
+
+nav a:hover {
+  text-decoration: underline;
 }
 
 .profile-flex {
@@ -35,10 +52,6 @@ nav > div {
   text-align: center;
   border: solid;
   border-width: 1px;
-}
-
-.profile-flex > a {
-  padding: 0 auto;
 }
 
 .works-flex {
@@ -63,7 +76,7 @@ nav > div {
 
 .about-photo {
   margin-right: 100px;
-  border-radius: 140px;
+  border-radius: 142px;
 }
 
 .about-explain {
@@ -74,12 +87,9 @@ nav > div {
   margin: 60px 0;
 }
 
-#works > div {
-  display: flex;
-}
-
 .work-boxes {
   width: 70%;
+  display: flex;
   margin: 20px auto;
 }
 
@@ -98,4 +108,47 @@ nav > div {
 
 #copyright > p {
   text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+  .header-box {
+    margin: 0 5px;
+  }
+
+  nav a {
+    font-size: 20px;
+  }
+
+  #main-visual > img {
+    margin-bottom: 10px;
+  }
+  
+  .about-boxes {
+    width: 80%;
+    flex-direction: column;
+  }
+
+  .about-photo {
+    margin: 0 auto;
+  }
+
+  .about-explain > h2 {
+    margin-top: 0;
+  }
+
+  #works {
+    margin-bottom: 30px;
+  }
+
+  .work-boxes {
+    width: 100%;
+    margin: 0;
+    flex-direction: column;
+  }
+
+  .work-box {
+    margin: 0 0 30px 0;
+    text-align: center;
+
+  }
 }
