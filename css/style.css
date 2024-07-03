@@ -1,0 +1,101 @@
+body {
+  max-width: 1080px;
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+p {
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 34px;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  font-size: 34px;
+  color: #000000;
+  text-decoration: none;
+}
+
+nav > div {
+  margin-bottom: 40px;
+}
+
+.profile-flex {
+  width: 205px;
+  margin-left: 150px;
+  text-align: center;
+  border: solid;
+  border-width: 1px;
+}
+
+.profile-flex > a {
+  padding: 0 auto;
+}
+
+.works-flex {
+  margin-right: 150px;
+}
+
+#main-visual > img {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+#about {
+  margin-bottom: 80px;
+}
+
+.about-boxes {
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-photo {
+  margin-right: 100px;
+  border-radius: 140px;
+}
+
+.about-explain {
+  align-content: center;
+}
+
+#works {
+  margin: 60px 0;
+}
+
+#works > div {
+  display: flex;
+}
+
+.work-boxes {
+  width: 70%;
+  margin: 20px auto;
+}
+
+.work-box {
+  margin: 0 10px ;
+  width: 100%;
+}
+
+.work-box > img {
+  width: 100%;
+}
+
+.work-box > p {
+  margin-top: 0;
+}
+
+#copyright > p {
+  text-align: center;
+}
